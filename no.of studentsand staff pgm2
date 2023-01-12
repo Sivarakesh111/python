@@ -1,0 +1,7 @@
+totalusers=int(input("Enter Total Users: "))
+staffusers=int(input("Enter Staff Users: "))
+nonteaching=staffusers//3
+staffusers=staffusers+nonteaching
+studentusers=totalusers-staffusers
+
+print("Student Users= ",studentusers)
